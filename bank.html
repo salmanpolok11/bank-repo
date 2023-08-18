@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Money</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+  <header>
+    <h1 class="text-6xl font-semibold text-center mt-5"> Lets get some <span class="text-blue-600">Mooooney!!</span>
+    </h1>
+  </header>
+
+  <section class="mt-9">
+    <div class=" lg:grid grid-cols-3 ">
+
+      <div class="bg-green-500 w-9/12 mx-auto text-white p-8 rounded-lg mb-4">
+        <h1 class="text-2xl">Deposit</h1>
+        <h2 class="text-5xl">$00</h2>
+      </div>
+
+      <div class="bg-orange-300 w-9/12 mx-auto text-white p-8  rounded-lg mb-4 ">
+        <h1 class="text-2xl">Widtdraw</h1>
+        <h2 class="text-5xl">$0</h2>
+      </div>
+
+      <div class="bg-purple-600	 w-9/12 mx-auto text-white p-8  rounded-lg mb-4">
+        <h1 class="text-2xl">Balance</h1>
+        <h2 class="text-5xl">$1240</h2>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- DEPOSIT SECTION -->
+
+  <section class="mt-9">
+    <div class=" lg:grid grid-cols-2 ">
+
+      <div class="bg-yellow-400 w-9/12 mx-auto text-white p-8 rounded-lg mb-4">
+        <h1 class="text-2xl mb-5">Please Deposit</h1>
+  
+          <input class="mb-5 lg:w-9/12 py-2 px-2" 
+          placeholder="$ Amount you want to deposit" 
+           type="email" name="" id="deposit-flid">
+          <button id="deposit-btn"
+            class="  bg-red-600 hover:bg-sky-600 px-6 py-2 block text-white font-medium 
+             rounded-lg">Deposit</button>
+      </div>
+
+      <div class="bg-teal-500	-orange-300 w-9/12 mx-auto text-white p-8 
+               rounded-lg mb-4 ">
+        <h1 class="text-2xl mb-5 "> Please Widtdraw</h1>
+        <input class="mb-5 lg:w-9/12 py-2 px-2" 
+        placeholder="$ Amount you want to widtdraw" 
+        type="email" name="" id="widtdraw-flid">
+       <button id="widtdraw-btn"
+         class="  bg-red-600 hover:bg-sky-600 px-6 py-2 block text-white font-medium 
+          rounded-lg">Widtdraw</button><h2 class="text-5xl"></h2>
+      </div>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>
