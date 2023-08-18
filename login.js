@@ -7,7 +7,7 @@ document.getElementById('submit-btn').addEventListener('click', function() {
  const passwordFlid = document.getElementById('user-pasword');
  const password = passwordFlid.value;
 
- if(email === 'salman@polok.com' && password === 'maha'){
+ if(email === 'partho@das.com' && password === 'polok'){
     window.location.href = 'bank.html';
  }
  else{
